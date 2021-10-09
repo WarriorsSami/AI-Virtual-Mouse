@@ -1,12 +1,12 @@
+import time
+
+import autopy
 import cv2
 import numpy as np
 
+from HandTrackingModule import FUXIA, LIGHT_GREEN
 from HandTrackingModule import HandDetector, Fingers
-from HandTrackingModule import wImg, hImg, fpsX, fpsY
-from HandTrackingModule import FUXIA, LIGHT_GREEN, BLUE
-
-import time
-import autopy
+from HandTrackingModule import fpsX, fpsY
 
 wCam, hCam = 600, 420
 frameR = 100  # Frame Reduction
